@@ -3,7 +3,7 @@ export const schema = gql`
     zip: String!
     city: String!
     conditions: String!
-    temp: String!
+    temp: Int!
     icon: String!
   }
 
